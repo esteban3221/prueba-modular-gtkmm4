@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.16.0 -->
+<interface>
+  <!-- interface-name main.ui -->
+  <requires lib="gtk" version="4.12"/>
+  <object class="GtkBox" id="box_main_view">
+    <property name="homogeneous">True</property>
+    <property name="margin-bottom">5</property>
+    <property name="margin-end">5</property>
+    <property name="margin-start">5</property>
+    <property name="margin-top">5</property>
+    <property name="orientation">vertical</property>
+    <property name="spacing">10</property>
+    <child>
+      <object class="GtkText">
+        <property name="placeholder-text">Escoge una Opcion</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton" id="btn_ven_1">
+        <property name="label">Ventana 1</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton" id="btn_ven_2">
+        <property name="label">Ventana 2</property>
+      </object>
+    </child>
+  </object>
+</interface>

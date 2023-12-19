@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.16.0 -->
+<interface>
+  <requires lib="gtk" version="4.12"/>
+  <object class="GtkBox" id="box_subventana2">
+    <property name="margin-end">5</property>
+    <property name="margin-start">5</property>
+    <property name="margin-top">5</property>
+    <property name="orientation">vertical</property>
+    <property name="spacing">10</property>
+    <child>
+      <object class="GtkText">
+        <property name="hexpand">True</property>
+        <property name="hexpand-set">True</property>
+        <property name="placeholder-text">Hola que hace soy la ventana 1</property>
+        <property name="vexpand">True</property>
+        <property name="vexpand-set">True</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkToggleButton" id="btn_tgl_pg">
+        <property name="label">Continua/Para</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkProgressBar" id="pg_bar"/>
+    </child>
+  </object>
+</interface>
